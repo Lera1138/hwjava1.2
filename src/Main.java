@@ -8,9 +8,10 @@ public class Main {
             bonus = sum / 100;
         } else {
             bonus = 0;
-        } int result=initial+sum+bonus;
+        }
+        int result = initial + sum + bonus;
         System.out.println(bonus);
         System.out.println(result);
     }
 } //если сумма пополнения 5500,то сумма бонусов 55 и итоговая сумма на счету 5655
- // если сумма пополнения 500, то  сумма бонусов 0 и итоговая сумма на счету 600
+// если сумма пополнения 500, то  сумма бонусов 0 и итоговая сумма на счету 600
